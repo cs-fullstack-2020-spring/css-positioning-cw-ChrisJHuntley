@@ -15,6 +15,7 @@
     float: left;
     width: 25%;
 }
+/* div4 should have padding (notice that it's taller than div3, div5, and div7) */
 #div4{
     text-align: center;
     border: 2px solid gray;
@@ -24,21 +25,24 @@
     
 
 }
+/* using float left without adding top and right movement would keep div5 and div7 aligned with div3 */
 #div5{
     text-align: center;
     border: 2px solid aqua;
     float: right;
     position: relative;
-    top:px ;
+    top:px ; /* make sure you don't have tpyos*/
     right: 1185px;
     width: 25%;
 }
+/* div6 should have padding (notice that it's taller than div3, div5, and div7) */
+/* using float right without adding top and right movement would keep div4 and div6 aligned */
 #div6{
     text-align: center;
+    position: relative;
     float: right;
     border: 2px solid purple;
-    width: 65%;
-    position: relative;
+    width: 45%;
     left:400px ;
 } 
 #div7{
@@ -46,7 +50,7 @@
     border: 2px solid red;
     float: right;
     position: relative;
-    bottom: px;
+    bottom: px; /* make sure you don't have typos */
     width: 25%;
     right: 1185px;
     
