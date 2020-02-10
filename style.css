@@ -1,0 +1,54 @@
+#div1{
+    color: purple;
+    border: 2px solid pink;
+    text-align: center;
+
+}
+#div2{
+    border: 2px solid black;
+    text-align: center;
+
+}
+#div3{
+    text-align: center;
+    border:2px solid green;
+    float: left;
+    width: 25%;
+}
+#div4{
+    text-align: center;
+    border: 2px solid gray;
+    float:right;
+    width: 65%;
+    
+    
+
+}
+#div5{
+    text-align: center;
+    border: 2px solid aqua;
+    float: right;
+    position: relative;
+    top:px ;
+    right: 1185px;
+    width: 25%;
+}
+#div6{
+    text-align: center;
+    float: right;
+    border: 2px solid purple;
+    width: 65%;
+    position: relative;
+    left:400px ;
+} 
+#div7{
+    text-align: center;
+    border: 2px solid red;
+    float: right;
+    position: relative;
+    bottom: px;
+    width: 25%;
+    right: 1185px;
+    
+}
+
